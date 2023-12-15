@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, buildPath),
         filename: '[name].[hash].js',
-        publicPath: '/',
+        publicPath: `/${pkg.repository}/`,
     },
     target: 'web',
     devtool: 'source-map',
@@ -39,6 +39,16 @@ module.exports = {
                 test: /\.(vert|frag|glsl|shader|txt)$/i,
                 use: 'raw-loader',
                 exclude: path.resolve(__dirname, './node_modules/'),
+            },
+            {
+                type: 'javascript/auto',
+                test: /\.(json)/,
+                exclude: path.resolve(__dirname, './node_modules/'),
+                use: [
+                    {
+                        loader: 'file-loader',
+                    },
+                ],
             },
         ],
     },
