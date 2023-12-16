@@ -1,6 +1,6 @@
 import { Group } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import MODEL from './chicken.glb';
+import MODEL from './chicken.glb'; // Model sourced from https://poly.pizza/m/7T8Ewz3VCom
 import * as THREE from 'three';
 
 const Y_EPS = -0.8;
