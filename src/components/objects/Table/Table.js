@@ -1,6 +1,6 @@
 import { Group } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import MODEL from './table.glb';
+import MODEL from './table.glb'; // Model taken from https://poly.pizza/m/dfL6q_VTWVf 
 import { Land as Land } from '../Land/index.js';
 import { Chair as Chair } from '../Chair/index.js';
 import * as THREE from 'three';
