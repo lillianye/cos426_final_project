@@ -1,6 +1,6 @@
 import { Group } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import MODEL from './floor.glb';
+import MODEL from './floor.glb'; // Model obtained from https://poly.pizza/m/4qpvnIQNcl5
 import * as THREE from 'three';
 
 class Land extends Group {
