@@ -42,7 +42,8 @@ controls.enablePan = false;
 controls.update();
 
 
-// global variables
+// global variables 
+// inspired from https://harveyw24.github.io/Glider/ 
 const keypress = {};
 const screens = { "menu": true, "ending": false, "pause": false };
 const playerA = 'playerA';
