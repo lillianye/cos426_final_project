@@ -4,6 +4,7 @@ import { Flower, Land, Table, Chair, PlayerA, PlayerB, Chicken} from 'objects';
 import { Land as LandConstant } from '../objects/Land/index.js';
 import { BasicLights } from 'lights';
 
+// Code structure taken from COS426 scaffold/template project
 class SeedScene extends Scene {
     constructor() {
         // Call parent Scene() constructor
