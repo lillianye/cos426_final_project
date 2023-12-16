@@ -1,7 +1,7 @@
 import { Group } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { Chicken} from '/src/components/objects';
-import MODEL from './Hooded_Adventurer.glb';
+import MODEL from './Hooded_Adventurer.glb'; // Obtained model from https://poly.pizza/m/y9KWOVG21R
 import { Chair as Chair } from '../Chair/index.js';
 import { Table as Table } from '../Table/index.js';
 import * as THREE from 'three';
