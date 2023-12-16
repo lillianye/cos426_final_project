@@ -1,10 +1,14 @@
-# COS 426 Final Project Template
-This skeleton project will help you get started with a ThreeJS project and provide a strong foundation for extension. It sets up a simple scene, camera, and renderer in a modern JavaScript environment, and is written using some common best-practices that you may want to draw from.
+## Live Demo
+https://lillianye.github.io/cos426_final_project/
 
-To see it running live on the web, check out the [Online Demo](https://adamfinkelstein.github.io/cos426finalproject/)
+## Writeup Link
+https://docs.google.com/document/d/1k6xEVnqx_yA-u-RErjgPBHGbQ4oJ-sI04eA9oqAGgCA/edit?usp=sharing
 
-## Cloning this template at Github
-To make your own copy of this project at Github, sign into your Github account, navigate to this project [at Github](https://github.com/adamfinkelstein/cos426finalproject/tree/main) and then click the big green button at the top: "Use this template" > "Create a new repository". 
+## Video Presentation/Demo Link
+https://drive.google.com/file/d/1nNoCx_ImsGZcSwc9nlgSYIVzkq6kLy3U/view?usp=drive_link
+
+## Crispy Combat
+Our project, Crispy Combat, is an interactive, 2-player game where each player’s objective is to remain alive for a longer time than their opponent. The theme and environment of our game is inspired by the frequent chaos of Princeton’s late meal dining. Thus, players in Crispy Combat must avoid moving tables and chairs by using their keyboard to move in 5 possible directions: left, right, forwards, backwards, and up (by jumping). In addition, players also have the opportunity to use either the space key or the “m” key to pelt chicken drumsticks at their opponent, who must then dodge the chicken in order to stay alive in the game. Player movements are restricted within the area of the floor. Players are allowed to bump into each other, but if they are hit by the opposing player’s chicken drumsticks or if they bump into furniture, then they lose.
 
 ## Installation on your own computer
 Having made your own copy of the project at Github (previous step) you can clone your repository to your own computer. 
