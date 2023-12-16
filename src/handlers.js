@@ -18,6 +18,8 @@ const DIRECTION_IDX =
 'W' : 3
 };
 
+// inspired from https://harveyw24.github.io/Glider/ 
+
 // handle user controls input
 // key pressed
 export function handleKeyDown(event, keypress) {
